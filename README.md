@@ -34,8 +34,8 @@ Essential links for the project:
 │   ├── metadata
 │   └── static
 ├── etc
-├── src
-├── static
+├── website
+│   └── docusaurus.config.ts
 └── tests
     ├── conftest.py
     └── pytest.ini
@@ -46,7 +46,7 @@ Essential links for the project:
 * `docs/` contains main documentation
 * `.gitignore` to ignore hidden or OS_ files
 * `etc/` contains additional files such as images, configuration files, etc
-* `src/` and `static/` contain files required by [docusaurus](https://github.com/splunk-platform-apps/.github/blob/main/documentation/DEV_GUIDELINES.md)
+* `website/` contain files required by [docusaurus](https://github.com/splunk-platform-apps/.github/blob/main/documentation/DEV_GUIDELINES.md)
 * `package/` contains Splunk App / Add-On Source Files
 * `tests/` contains files for unit testing, e2e testing, mocks, postman collections, etc
 
