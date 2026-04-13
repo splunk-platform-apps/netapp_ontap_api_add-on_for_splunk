@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-const app_name: string = 'netapp_ontap_api_add-on_for_splunk';
+const app_name: string = 'netapp_ontap_api_add-on_for_splunk'.replaceAll("_", " ");
 const repo_name: string = 'netapp_ontap_api_add-on_for_splunk';
 const app_descr: string = 'This Add-on retreives data from NetApp ONTAP REST API in regards to information about Qtrees, SVMs, Volumes, Nodes, Clusters and Aggregates (and can be easily exapanded with new endpoints).';
 
