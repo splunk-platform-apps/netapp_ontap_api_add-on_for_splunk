@@ -95,7 +95,6 @@ const config: Config = {
       },
       links: [
         {
-          title: 'Community',
           items: [
             {
               label: 'Community Slack',
